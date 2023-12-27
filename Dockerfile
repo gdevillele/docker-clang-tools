@@ -5,7 +5,7 @@
 # 
 # and more...
 
-FROM alpine:3.16.2
+FROM alpine:3.19.0
 
 RUN apk update && apk add clang-extra-tools
 
